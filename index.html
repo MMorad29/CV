@@ -3,101 +3,57 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Marella's Personal Site</title>
-</head>
+    <title>Marella Morad</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <!--the icon that appears on the website tab-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat+Alternates&family=Sacramento&display=swap" rel="stylesheet">
 
-<body>
-    <table>
-        <tr>
-            <td>
-                <!--To use an image, we need a source, for example an image using its full path or a url-->
-                <!--Images have attributes such as size and position which can be modified-->
-                <img src="Images/Cover.jpeg" atl="Cover Image" width="600">
-            </td>
-            <td>
-                <h1>Marella Morad</h1>
-                <p>
-                    <em>Junior Full Stack Developer at <strong><a href="https://www.vcs.org.au/digital-health/about-us/">VCS Digital Health</a></strong>.</em>
-                    <!-- href is hyperlink reference which is equal to the link, href is inside the opening <a> tag, before closing the <a> tag, we put the text that will have the hyperlink linked to it-->
-                    <!--em is for italics and strong is for bold-->
-                </p>
-                <p>I am a Software Developer. I ❤ Coffee, especially Arabic Coffee</p>
-                <p>Follow this link to get my <a href="contact.html">contact details</a></p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Studying</h3>
-    <ul>
-        <li>Bachelor of Engineering Majoring in Software at <strong>Swinburne University</strong>.</li>
-        <li>VCE Year 12 at <strong>Braybrook Secondary College</strong>.</li>
-    </ul>
-    <hr>
-    <h3>Skills</h3>
-    <table border="1" style="width: 500px">
-        <!--We can also use cell spacing to seperate the cells-->
-        <tr>
-            <td>
-                <table style="height: 60px">
-                    <tr>
-                        <td>C# Programming</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Problem Solving</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table style="height: 60px">
-                    <tr>
-                        <td>Web Development</td>
-                        <td>⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Cooking</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Work Experince</h3>
-    <table border="1" style="height:150px; width:600px">
-        <!--Table heading-->
-        <thead>
-            <tr style="text-align:center">
-                <!--table header - for column headings-->
-                <th>Dates</th>
-                <th>Position</th>
-                <th>Organisation</th>
-            </tr>
-        </thead>
-        <!--Table body-->
-        <tbody>
+    <body>
+        <!--Content Division Tool-->
+        <div class="TopContainer">
+            <!--<img class="TopCloud" src="images/cloud.png" alt="cloudImage">-->
+            <h1>I'm Marella</h1>
+            <p>An Application <span class="Underline">Developer</span>.</p>
+            <!--<img class="BottomCloud" src="images/cloud.png" alt="cloudImage">-->
+        </div>
 
-        </tbody>
-        <!--Table footer-->
-        <tfoot>
-
-        </tfoot>
-        <!-- tr is a table raw and td is a table data-->
-        <tr style="text-align:center">
-            <td>Feb 2020 - Dec 2020</td>
-            <td>Tutor</td>
-            <td>Braybrook Secondary College</td>
-        </tr>
-        <tr style="text-align:center">
-            <td>Mar 2021 - Nov 2021</td>
-            <td>Academic Advisor</td>
-            <td>Braybrook Secondary College</td>
-        </tr>
-    </table>
-    <hr>
-    <!--ul stands for unordered list-->
-    <h3><a href="hobbies.html">My Hobbies</a></h3>
-</body>
+        <div class="MiddleContainer">
+            <div class="profile">
+              <h2>Hello.</h2>
+              <p>I am a third year Software Engineering student<br>Currently employed as a Junior Application Developer at ACPCC</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img class="" src="" alt="">
+                <h3>Singing</h3>
+                <p>I really enjoy singing and I sing in two languages, that I understand.<br>And a few more that I don't understand!<br>Checkout my <a href="https://www.facebook.com/music.m.b.m.99/">singing page</a></p>
+              </div>
+              <div class="skill-row">
+                <img class="" src="" alt="">
+                <h3>Cooking</h3>
+                <p>Who doesn't like food, Really!<br>I have always enjoyed making food, sometimes even more than eating it, seriously</p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>You can reach me on any of the below links.</h3>
+              <a class="btn" href="mailto:marella.m.music@gmail.com">CONTACT ME</a>
+            </div>
+          </div>
+          
+          
+          <div class="BottomContainer">
+            <a class="footer-link" href="https://au.linkedin.com/in/marellamorad">LinkedIn</a>
+            <a class="footer-link" href="https://www.facebook.com/music.m.b.m.99/">Facebook</a>
+            <p>© 2022 Marella Morad.</p>
+          </div>
+          
+    </body>
 
 </html>

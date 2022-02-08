@@ -1,0 +1,70 @@
+body {
+    background-image: url("C:/Users/mmorad/OneDrive - VCS Foundation/Resources/Web Development/CSS - My Site/images/background.png");
+    margin: 0;
+    background-color: #e5e0ff;
+    background-size:cover;
+    text-align: center;
+    /* inside the parent element will centre everything that doesn't have a fixed width */
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 75px;
+    /* 
+        auto margin can be used on elements with set width. Vertical centering: auto 0 auto 0 and Horizontal centering: 0 auto 0 auto 
+        width: 10%;
+        margin: 0 auto 0 auto;
+    */
+    /* More infromation: https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
+}
+
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.TopContainer {
+    position: relative;
+    padding-top: 150px;
+}
+
+.MiddleContainer {
+}
+
+.BottomContainer {
+}
+
+
+.Underline {
+    text-decoration: underline;
+}
+
+/*
+.BottomCloud {
+    width: 150px;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.TopCloud {
+    width: 150px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+*/
+
+/*
+div {
+    padding: 20px;
+    {border-width: 0px 10px 20px 30px;} goes clockwise and specifies the border width of the top, right, bottom, left respectively.
+    {padding: 20px;} This specifies the padding between the text and borders
+    {margin : 10px;} This gives the box some extra space away from other elements
+}
+*/
